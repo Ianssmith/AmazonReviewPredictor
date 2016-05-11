@@ -1,4 +1,5 @@
 # AmazonReviewPredictor
+https://docs.google.com/presentation/d/1s0V5Rxpj1zC6UNL7ffNd-ScdfUDiF7aXAnSptVCEI8A/edit#slide=id.g1307426a92_0_36
 Machine learning model to predict the "helpfulness" rating of Amazon product reviews.
 
 For the first iteration additional features seem to add only
