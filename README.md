@@ -16,3 +16,20 @@ Adding the additional features which I included in the original data set resulte
 accuracy in the smaller data set, but there is not enough evidence to suggest the decrease in accuracy
 seen in the repeat review writers trial would be remedied by including the rest of the data.
 We'll see.
+
+##Update:
+Running a count vectorizer on the Summary text of each review increased the 
+models accuracy significantly. 
+
+Based on this discovery further methods were run on the Summary and other 
+text based elements of the data; Namely an NLTK Stemmer which was rolled into the CountVectorizer.
+After this expansion the highest accuracy thus far was attained with
+nearly a 50% increase in true positive rate. 
+
+The Multinomial Naive Bayes classifier was chosen as the final model 
+because while the overall accuracy was not the highest of the models run, 
+it had a significantly higher true positive rate.(turns out 
+if you guess that virtually none of the reviews are helpful 
+you will have a relatively high true negative rate. :laughing:) 
+
+
